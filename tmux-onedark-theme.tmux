@@ -72,9 +72,9 @@ set "display-panes-colour" "$onedark_blue"
 set "status-bg" "$onedark_black"
 set "status-fg" "$onedark_white"
 
-set "@prefix_highlight_fg" "$onedark_black"
-set "@prefix_highlight_bg" "$onedark_green"
-set "@prefix_highlight_copy_mode_attr" "fg=$onedark_black,bg=$onedark_green"
+set "@prefix_highlight_fg" "$onedark_white"
+set "@prefix_highlight_bg" "$onedark_black"
+set "@prefix_highlight_copy_mode_attr" "fg=$onedark_white,bg=$onedark_black"
 
 status_widgets=$(get "@onedark_widgets")
 time_format=$(get "@onedark_time_format" "%R")
